@@ -1,0 +1,100 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #101218;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* CABEÇALHO */
+h1{
+    font-size: 36px;
+}
+header {
+    width: 60%;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header img {
+    width: 15dvh;
+}
+.span {
+    border-radius: 24px;
+    font-size: 16px;
+    padding: 12px 20px;
+    margin-left: 10px;
+    background-color: #2d3b6b;
+    cursor: pointer;
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
+.span:hover {
+    border: 2px solid;
+}
+
+/* TABELAS */
+.tabela {
+    width: 60%;
+    background-color: lightgray;
+    color: black;
+    padding: 20px;
+    border-radius: 25px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.tabela h2 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+table td{
+    border-top: 1px solid;
+    padding: 5px;
+}
+table th {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px;
+}
+.text-left {
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.w-10 {
+    width: 10px;
+}
+.w-25 {
+    width: 25px;
+}
+.img-36 img {
+    height: 24px;
+}
+.bl-blue {
+    border-left: 5px solid #4285f4;
+}
+.bl-orange {
+    border-left: 5px solid orange;
+}
+.gols img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+.gols table {
+    font-size: 16px;
+}
+

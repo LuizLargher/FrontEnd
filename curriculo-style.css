@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(25, 25, 25);
+}
+
+/* DIVISÕES GERAL */
+.container {
+  border: 2px solid rgb(65, 65, 65);
+  height: 1200px;
+  width: 60%;
+  margin: 10px auto;
+}
+
+.right {
+  background-color: black;
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.left {
+  background-color: white;
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+/* DIV PHOTO - ESQUERDA */
+.photo img {
+  margin-top: 80px;
+  margin-left: 80px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid rgb(67, 202, 67);
+}
+
+/* DIV BIOGRAFIA - ESQUERDA */
+.bio {
+  margin: 15px 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bio h1 {
+  color: white;
+  font-size: 30px;
+}
+.bio h3 {
+  color: rgb(67, 202, 67);
+  font-style: italic;
+  font-weight: 400;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.bio p {
+  color: white;
+  text-align: justify;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-right: 10px;
+  line-height: 1.5;
+}
+/* DIV EDUCAÇÃO - ESQUERDA */
+.educ {
+  margin: 30px 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.educ h2 {
+  color: rgb(67, 202, 67);
+}
+
+.educ h3 {
+  color: white;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.educ p {
+  color: white;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* DIV LÍNGUA - ESQUERDA */
+.lang {
+  margin: 30px 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.lang h2 {
+  color: rgb(67, 202, 67);
+}
+
+.lang ul {
+  color: white;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.lang li {
+  padding-top: 5px;
+  font-style: italic;
+}
+/* DIV CONTATOS - ESQUERDA */
+.cont {
+  margin-left: 40px;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cont span {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin-left: 5px;
+}
+.cont i {
+  color: rgb(67, 202, 67);
+  margin-bottom: 10px;
+  margin-left: 14px;
+  margin-top: 14px;
+}
+
+/* DIV EXPERIÊNCIA - DIREITA */
+.exp {
+  margin-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.exp hr {
+  margin-right: 100px;
+  height: 3px;
+  background-color: black;
+}
+.exp h2 {
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.exp h3 {
+  font-style: italic;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 18px;
+}
+.exp p {
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.exp ul {
+  font-size: 15px;
+  margin-left: 50px;
+}
+.exp li {
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+/* DIV HABILIDADES -  DIREITA */
+.hab {
+  margin-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hab hr {
+  margin-right: 100px;
+  height: 3px;
+  background-color: black;
+}
+.hab h2 {
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.hab h3 {
+  font-style: italic;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 18px;
+}
+.desc {
+  font-size: 15px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.hab li {
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+.cont-hab {
+    display: flex;
+    align-items: flex-start; 
+    gap: 20px;
+}
+/* Lista de linguagens */
+.langs ul {
+    margin: 0;
+    padding: 0;
+}
+.langs li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+/* Nível e círculos */
+.levels {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.circles {
+    display: flex;
+    gap: 5px;
+}
+.circleB,
+.circleW {
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+}
+.circleB {
+  background-color: black;
+}
+.circleW {
+  border: 1px solid black;
+}
+/* Limpando Floats */
+.clear {
+  clear: both;
+}
